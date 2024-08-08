@@ -15,7 +15,7 @@ This is the main plug-in source code I made, and please refer to the link below 
 Thank you for reading.
 
 ### Mod source code
-https://github.com/GoLani11/GoLani.KoreanModFix
+https://github.com/GoLani11/SPT-Korean-Project
 
 You can use the source code freely if you just leave a comment and an address.
 
@@ -36,5 +36,6 @@ You can use the source code freely if you just leave a comment and an address.
 
 
 ### 모드 소스 코드
-https://github.com/GoLani11/GoLani.KoreanModFix
+https://github.com/GoLani11/SPT-Korean-Project
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGoLani11%2FGoLani.KoreanModFix&count_bg=%2371EAFB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
