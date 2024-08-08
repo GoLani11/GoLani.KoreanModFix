@@ -10,7 +10,7 @@ Also, thanks to Gomeng for actively providing this mod to me.
 You can use the source code freely if you just leave a comment and an address.
 There are still a lot of mistranslations, so I would appreciate it if you could test them and report them.
 
-This is the main plug-in source code I made, and please refer to the link below for the mod source code.
+This is the plug-in source code I made, and please refer to the link below for the main mod source code.
 
 Thank you for reading.
 
