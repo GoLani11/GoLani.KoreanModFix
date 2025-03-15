@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace KoreanPatchFix
 {
-    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.2.0")]
+    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.2.1")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
@@ -18,6 +18,7 @@ namespace KoreanPatchFix
             FleaMarketItemCategoryFix.Enable();
             GesturesMenuFix.Enable();
             RewardNameFix.Enable();
+            QuickAccessPanelFix.Enable();
         }
     }
 }

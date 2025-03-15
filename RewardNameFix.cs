@@ -64,7 +64,7 @@ namespace KoreanPatchFix
             // 텍스트 길이에 따른 폰트 크기 조정
             int length = text.text.Length;
 
-            if (length < 18)
+            if (length <= 18)
             {
                 text.fontSize = 10;
             }
