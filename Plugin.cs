@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace KoreanPatchFix
 {
-    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.2.1")]
+    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.2.2")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()

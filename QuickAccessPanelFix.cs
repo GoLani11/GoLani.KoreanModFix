@@ -29,12 +29,9 @@ namespace KoreanPatchFix
                     BindingFlags.Static | BindingFlags.NonPublic);
 
                 harmony.Patch(original, null, new HarmonyMethod(postfix));
-
-                Debug.Log("[KoreanPatchFix] 퀵 액세스 패널 텍스트 크기 패치가 적용되었습니다.");
             }
             catch (Exception ex)
             {
-                Debug.LogError($"[KoreanPatchFix] 퀵 액세스 패널 패치 오류: {ex}");
             }
         }
 
@@ -53,7 +50,6 @@ namespace KoreanPatchFix
             }
             catch (Exception ex)
             {
-                Debug.LogError($"[KoreanPatchFix] 텍스트 크기 조정 오류: {ex}");
             }
         }
 
