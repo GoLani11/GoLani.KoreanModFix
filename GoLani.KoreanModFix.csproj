@@ -98,13 +98,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FleaMarketItemNameCategoryFix.cs" />
+    <Compile Include="RewardNameFix.cs" />
     <Compile Include="GesturesMenuFixFix.cs" />
     <Compile Include="FleaMarketItemNameFix.cs" />
     <Compile Include="Plugin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetPath)" "D:\SPT 3.9.x\BepInEx\plugins\$(TargetName).dll"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
