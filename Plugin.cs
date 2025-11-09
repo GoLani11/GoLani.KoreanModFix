@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace KoreanPatchFix
 {
-    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.2.2")]
+    [BepInPlugin("com.GoLani.koreanpatchfix", "Korean Patch Fix", "1.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
@@ -19,6 +19,7 @@ namespace KoreanPatchFix
             GesturesMenuFix.Enable();
             RewardNameFix.Enable();
             QuickAccessPanelFix.Enable();
+            ItemViewShortNameFix.Enable();
         }
     }
 }

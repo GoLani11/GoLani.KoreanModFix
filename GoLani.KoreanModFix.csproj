@@ -47,6 +47,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\BepInEx.dll</HintPath>
     </Reference>
+    <Reference Include="Comfort, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Comfort.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
@@ -102,6 +106,7 @@
     <Compile Include="RewardNameFix.cs" />
     <Compile Include="GesturesMenuFixFix.cs" />
     <Compile Include="FleaMarketItemNameFix.cs" />
+    <Compile Include="ItemViewShortNameFix.cs" />
     <Compile Include="Plugin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
